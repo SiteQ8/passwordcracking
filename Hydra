@@ -1,9 +1,6 @@
-Hydra-Cheatsheet
-Hydra Password Cracking Cheetsheet
+Hydra Password Cracking
 
-The following table uses the $ip variable which can be set with the following command:
-
-export ip 10.10.10.1
+change $ip to match the IP you will be attacking.
 
 Command	Description
 hydra -P password-file.txt -v $ip snmp	Hydra brute force against SNMP
